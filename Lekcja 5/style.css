@@ -1,0 +1,44 @@
+body {
+	background-color: #fcf7f2;;
+}
+body > div {
+	height: 1992px;
+	margin: 0 80px;
+}
+
+pre {
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+#fixed {
+	position: fixed;
+	top: 200px;
+	height: 100px;
+	width: 1080px;
+}
+span {
+	font-size: 21px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	position: relative;
+	top: 180px;
+	color: #ccc;
+	letter-spacing: 2px;
+}
+
+span:nth-child(2){
+	position: relative;
+	top: -20px;
+	right: 340px;
+	float: right;
+}
+
+a:link {
+	text-decoration: none;
+	color: #ccc;
+}
+a.visited{
+	color: #ccc;
+}
+a.active{
+	color: #ccc;	
+}

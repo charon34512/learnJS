@@ -1,0 +1,48 @@
+body {
+	background-color: #000000;
+	color: lightgrey;
+	font-size: 28px;
+}
+#pojemnik {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#komunikat {
+	width: 900px;
+	text-align: center;
+	min-height: 210px;
+}
+#gora {
+	width: 900px;
+	text-align: center;
+	min-height: 70px;
+}
+#dol {
+	width: 900px;
+	text-align: center;
+	min-height: 140px;
+}
+#plansza {
+	width: 297px;
+	min-height: 280px;
+	margin-right:auto;
+    margin-left:auto;
+}
+.pole {
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid grey;
+	float: left;
+	cursor: pointer;
+	line-height: 75px;
+}
+.reset {
+	cursor: pointer;
+	color: grey;
+}
+.reset:hover {
+	color: white;
+}

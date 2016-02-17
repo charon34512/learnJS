@@ -1,0 +1,60 @@
+body {
+	background-color: gray;
+}
+header{
+	text-align: center;
+	margin: 15px 0;
+}
+body > div	{
+	margin: 0 auto;
+	padding: 40px;
+	width: 800px;
+	height: 400px;
+	background-color: #ffffe0;
+	box-shadow: 0 0 6px #000;
+	border: 1px solid black;
+}
+header + div > section:nth-child(1) {
+	width: 200px;
+	height: 400px;
+	color: white;
+	float: left;
+	}
+header + div > section:nth-child(1) > div {
+	width: 60px;
+	height: 60px;
+	margin: 20px 70px;
+	border: 1px solid black;
+}
+header + div > section:nth-child(1) > div:nth-child(1) {
+	margin-top: 40px;
+	background-color: #FF3366;
+}
+header + div > section:nth-child(1) > div:nth-child(2) {
+	background-color: #FFFF00 ;
+}
+header + div > section:nth-child(1) > div:nth-child(3) {
+	background-color: #6666FF;
+}
+header + div > section:nth-child(1) > div:nth-child(4) {
+	background-color: #FFFFFF;
+}
+
+header + div > section:nth-child(2) {
+	width: 600px;
+	height: 400px;
+	float: right;
+}
+header + div > section:nth-child(2) > div {
+	width: 600px;
+	height: 25%;
+	background-color: black;
+}
+header + div > section:nth-child(2) > div > div {
+	width: 25%;
+	height: 100%;
+	background-color: white;
+	float:left;
+	border: 2px solid black;
+	box-sizing: border-box;
+}

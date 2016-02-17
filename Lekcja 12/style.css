@@ -1,0 +1,105 @@
+body {
+	margin: 0 auto;
+	width: 900px;
+}
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+	text-align: center;
+	letter-spacing: 2px;
+}
+body > div {
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	float: left;
+	border-radius: 10px;
+	position: relative;
+}
+body > div:nth-child(2){
+	margin: 50px 50px 50px 250px;
+}
+body > div:nth-child(3){
+	margin: 50px 250px 50px 50px;
+}
+
+
+button {
+	width: 200px;
+	height: 50px;
+	margin: 0 350px;
+	background-color: green;
+	font-size: 25px;
+	color: #000;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.one {
+	position: absolute;
+	top: 50px;
+	left: 36px;
+}
+.two {
+	position: absolute;
+	top: 7px;
+}
+.three {
+	position: absolute;
+	top: 99px;
+	left: 75px;
+}
+.four1 {
+	position: absolute;
+	top: 7px;
+	left: 75px;
+}
+.four2 {
+	position: absolute;
+	top: 98px;
+	left: 0;
+}
+
+.six {
+	width: 35px;
+	height: 35px;
+	background-color: #FFF;
+	border-radius: 50%;
+	float: left;
+	margin: 7px 20px;
+}
+
+.start {
+	width: 35px;
+	height: 35px;
+	background-color: #FFF;
+	border-radius: 50%;
+	float: left;
+	margin: 7px 20px;
+}
+.div-image {
+	display: block;
+}
+.image{
+	width: 200px;
+	display: none;
+}
+
+@keyframes move {
+	0% { transform: translateX(0px);}
+	10% { transform: translateX(30px);}
+	20% {transform: translateX(-30px);}
+	30% {transform: translateX(30px);}
+	40% { transform: translateX(-30px);}
+	60% {transform: translateX(30px);}
+	70% { transform: translateX(-30px);}
+	80% { transform: translateX(30px);}
+	90% {transform: translateX(-30px);}
+	100% { transform: translateX(0px);}
+}
+
+
+@keyframes fadeOut {
+	0% {  }
+}

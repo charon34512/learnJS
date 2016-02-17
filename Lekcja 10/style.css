@@ -1,0 +1,59 @@
+.content {
+	width: 900px;
+	margin: 0 auto;
+}
+.div {
+	width: 100px;
+	height: 100px;
+	margin: 100px 100px;
+	background-color: red;
+	float: left;
+	position: relative;
+}
+
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(1440deg);
+	}
+}
+
+@keyframes scale {
+		
+	0% { transform: scale(1);}
+	10% { transform: scale(0.6);}
+	20% { transform: scale(2.2);}
+	30% { transform: scale(0.5);}
+	40% { transform: scale(1.6);}
+	60% { transform: scale(1);}
+}
+
+@keyframes move {
+	0% { transform: translateX(0px);}
+	10% { transform: translateX(30px);}
+	20% {transform: translateX(-30px);}
+	30% {transform: translateX(30px);}
+	40% { transform: translateX(-30px);}
+	60% {transform: translateX(30px);}
+	70% { transform: translateX(-30px);}
+	80% { transform: translateX(30px);}
+	90% {transform: translateX(-30px);}
+	100% { transform: translateX(0px);}
+}
+
+
+@keyframes hop {
+	0% { transform: translateY(0px);}
+	10% { transform: translateY(60px);}
+	20% {transform: translateY(-60px) rotate(-20deg);}
+	30% {transform: translateX(60px);}
+	40% { transform: translateX(-60px) rotate(20deg);}
+	60% {transform: translateY(60px);}
+	70% { transform: translateY(-60px) rotate(-20deg);}
+	80% { transform: translateX(60px);}
+	90% {transform: translateX(-60px) rotate(20deg);}
+	100% { transform: translateX(0px);}
+}

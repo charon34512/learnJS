@@ -1,0 +1,29 @@
+div {
+	border-radius: 50px;
+	background-color: #CCC;
+	box-shadow: 0 0 10px rgba(100, 100, 100, .8);
+	width: 100px;
+	height: 100px;
+	margin: 50px;
+
+	animation: move 10s ease-in 4;
+/*
+	animation-name: move;
+	animation-duration: 10s;
+	animation-timing-function: ease-in;
+	animation-delay: 2s;
+	animation-iteration-count: 4;
+	animation-direction: alternate;
+*/
+}
+
+@keyframes move {
+	0% { margin-left: 50px;}
+	15% { margin-left: 100px;}
+	30% { margin-left: 700px;}
+	40% { margin-left: 400px;}
+	60% { margin-left: 300px;}
+	70% { margin-left: 200px;}
+	90% { margin-left: 400px;}	
+	100% { margin-left: 50px;}	
+}

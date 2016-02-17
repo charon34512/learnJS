@@ -1,0 +1,37 @@
+body {
+	background-color: #000000;
+}
+section {
+	width: 300px;
+	margin: 70px auto;
+	text-align: center;
+	display: block;
+}
+section > div:nth-child(1) {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 32px;
+	color: #FFF;
+	padding: 15px 10px;
+	background: #bc1939;
+ 	box-shadow: 5px 5px #831127, 4px 4px #831127, 4px 4px #831127;
+    border: 1px solid #831127;
+}
+section > div:nth-child(2) {
+	width: 20px;
+	border-style: solid;
+	border-width: 0 5px 5px 0;
+	border-color: transparent #831127 transparent transparent;
+	position: relative;
+	top: 0px;
+	left: -20px;
+	z-index: 0;
+}
+section > div:nth-child(3) {
+	width: 20px;
+	border-style: solid;
+	border-width: 5px 0 0 5px;
+	border-color: transparent  transparent transparent #831127;
+	position: relative;
+	top: -76px;
+	left: 300px;
+}

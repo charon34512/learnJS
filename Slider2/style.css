@@ -1,0 +1,16 @@
+
+.image.active-image {
+	display: block;
+}
+.image {
+	width: 200px;
+	height: 200px;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+button {
+	float: right;
+}

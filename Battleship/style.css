@@ -1,0 +1,73 @@
+.main {
+	margin: 0 auto;
+	width: 1024px;
+	height: 863px;
+	background-image: url("board.jpg");
+}
+.main > div + div {
+	position: relative;
+	top: 42px;
+	left: 172px;
+	width: 700px;
+	height: 700px;
+}
+.box {
+	width: 96px;
+	height: 96px;
+	float: left;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.hit {
+	background: url("ship.png") no-repeat center center;
+}
+.miss {
+	background: url("miss.png") no-repeat center center;
+}
+.box > div {
+	width: 80px;
+	height: 35px;
+	background-repeat: no-repeat;
+}
+
+/* Form */
+.main > div {
+	text-align: center;
+}
+input {
+	margin: 10px auto;
+	width: 300px;
+	height: 31px;
+	padding: 0;	
+}
+input:nth-child(2) {
+	height: 35px;
+	width: 100px;
+	background-color: #d11250;
+	border: 0px;
+	border-radius: 3px;
+	color: #FFF;
+	font-size: 18px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	padding: 0;
+}
+input:nth-child(2):active {
+	background-color: #ba1047;
+	border: 0;
+}
+span{
+	margin: 20px;
+	float: right;
+	color: white;
+}
+/*span {
+	font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+	font-size: 36px;
+	display: block;
+	margin: 30px 0;
+}
+*/

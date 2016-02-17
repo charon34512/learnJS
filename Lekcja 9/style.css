@@ -1,0 +1,59 @@
+body {
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	letter-spacing: 2px;
+}
+div {
+	width: 240px;
+	height: auto;
+	margin: 50px 200px 0 525px;
+	float: left;
+}
+header {
+	font-size: 32px;
+	margin-bottom: 20px;
+	line-height: 32px;
+}
+span {
+	font-size: 22px;
+	line-height: 22px;
+}
+#circle {
+	border-radius: 50%;
+	background-color: #F2A53A;
+	width: 110px;
+	height: 110px;
+	margin: 200px;
+
+	animation: move alternate infinite linear;
+	animation-duration: 2500ms;
+}
+
+#div {
+	display: block;
+	width: 520px;
+	height: 110px;
+	margin: 400px auto;
+	text-align: center;
+}
+
+div + div > span {
+	margin: 40px 0;
+	display: block;
+}
+
+div > span:nth-child(1){
+	font-size: 30px;
+}
+div > span:nth-child(2){
+	font-size: 20px;
+}
+
+
+@keyframes move {
+	from { 
+		margin-top: 50px;
+	}
+	to {
+		margin-top: 500px;
+	}
+}

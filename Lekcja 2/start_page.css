@@ -1,0 +1,39 @@
+body {
+	background: #333;
+	color: white;
+}
+h1  {
+	text-align: center;
+	font-size: 45px;
+	font-family: Futura, "Trebuchet MS", 
+}
+p {
+	text-align: center;
+	font-family: Consolas, monaco, monospace;
+	line-height: 25px;
+	font-size: 18px;
+}
+header + section > div {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+img {
+	margin: 0px 20px;
+}
+iframe {
+	width: 420px;
+	margin: 20px auto;
+}
+section {
+	text-align: center;
+}
+a {
+	display: inline-block;
+	color: #fd8e45;
+}
+
+
+span {
+	display: inline-block;
+}
